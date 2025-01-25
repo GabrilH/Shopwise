@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopwise - Listas de Compra</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/lists.js"></script>
+</head>
+
+<body>
+    <div id="band">
+        <img src="images/watch.png" id="band-img" style="width:390px;height:720px;">
+    </div>
+    <div id="watch">
+        <button id="menu-button" onclick="toggleMenu()">Menu</button>
+        <a href="menu.html" class="back-button">&lt;-</a>
+        <a class="menu-button">&lt;-</a>
+        <div id="lists-screen" class="screen">
+            <header id="header">
+                <span id="header-title">Listas de Compras</span>
+            </header>
+            <div id="main">
+                <div id="shopping-lists"></div>
+                <a id = "new-list" href="active-list.html" class="button">+ Criar Lista</a>
+            </div>
+
+            <div id="menu" style="display: none;" >
+                <a href="index.html" style="text-decoration:none;">
+                  <img class="menu-icons" src="images/home.png" alt="home">
+                </a>
+                <a href="lists.html" style="text-decoration:none;">
+                  <img class="menu-icons" src="images/lists.png" alt="lists">
+                </a>
+                <a href="map.html" style="text-decoration:none;">
+                  <img class="menu-icons" src="images/map-icon.png" alt="map">
+                </a>
+                <img id="help-btn" onclick="showHelpPopUp()" class="menu-icons" src="images/help.png" alt="help">
+              </div>
+        </div>
+    </div>
+</body>
+
+</html>

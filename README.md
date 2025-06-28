@@ -1,5 +1,12 @@
 # Shopwise Smartwatch App
 
+**Authors:**
+- Guilherme Sousa (fc58170)
+- Gabriel Henriques (fc58182)
+- Pedro Cascão (fc58232)
+
+**Final Grade:** 17/20
+
 ## Introduction
 Shopwise is a smartwatch-like browser app developed as part of Human-Machine Interface course. The app aims to enhance the shopping experience by letting users create their shopping lists and guide them through the supermarket to find the products. As users reach each product, they can scan it to automatically remove it from the list and proceed to the next item.
 
@@ -19,10 +26,4 @@ Shopwise is a smartwatch-like browser app developed as part of Human-Machine Int
 ## Requirements and Usage
 - **Usage**: Open the `index.html` file in a Chromium-based browser to start using the app.
 
-## Contributors
-- Guilherme Sousa (fc58170)
-- Gabriel Henriques (fc58182)
-- Pedro Cascão (fc58232)
-
-
-For more details, refer to the `presentation.pdf` file included in the project.
+For more details, refer to the [presentation.pdf](presentation.pdf) file included in the project.
